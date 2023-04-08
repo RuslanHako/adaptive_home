@@ -1,0 +1,204 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.699);
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+
+}
+
+.wrraper {
+    overflow: hidden;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    Font-family: Arial;
+    Font-style: Regular;
+
+}
+.header__main{
+    background: url(/img/bg/Mask\ group.png) no-repeat center/cover; 
+    height: 100vh;
+}
+.container {
+    max-width: 1130px;
+    padding: 0px 5px;
+    margin: 0 auto;
+}
+
+.header__container {}
+
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1370px;
+}
+
+.header {
+   
+    border-bottom: 2px solid white;
+    padding-top: 16px;
+    line-height: 1.13px;
+}
+
+.logo {}
+
+.logo__img {
+    display: block;
+    max-width: 187px;
+    min-width: 81px;
+}
+
+.nav__link {
+    font-family: Arial;
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 1.13;
+    color: #fff;
+}
+
+.nav {}
+
+.nav__item {
+    display: flex;
+    column-gap: 36px;
+}
+span{
+    color: 
+    #ED7173;
+}
+.nav__list {
+    border-bottom: 2px solid transparent;
+}
+
+.nav__list.active {
+    border-bottom: 2px solid white;
+}
+
+.header__contact {
+    display: flex;
+    column-gap: 52px;
+    align-items: center;
+}
+
+.location,
+.tel {
+    color: #fff;
+    font-style: normal;
+}
+
+.location::before {
+    content: url(/img/icons/место.png);
+    margin-right: 4px;
+
+}
+
+
+.main {
+    color: #FFFFFF;
+}
+
+.hero {}
+
+.hero__main {}
+
+.tittle {
+    padding-top: 180px;
+}
+
+.subtittle {}
+
+.hero__btns {}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+border-radius: 4px;
+color: #FFFFFF;
+}
+
+.hero__call-to-action {}
+
+.advantages {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 167px;
+}
+
+.advantage {
+    width: 274px;
+   
+    border: 2px solid #fff;
+    column-gap: 127px;
+
+}
+
+.advantages__img {
+margin-top: 16px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.advantages__desc {
+    text-align: center;
+}
+
+.advantages__desct {}
+
+
+.podro {
+}
+.container {
+}
+.podro__tittle {
+}
+.podro__subtittle {
+}
+.info {display: flex;
+}
+.info:nth-child(1)::before{
+    content: 01;
+    
+}
+.info__text {max-width: 405px;
+}
+.info__tetx__two {display: flex;
+}
+
+
